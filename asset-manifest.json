@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/jeussantiago.github.io/portfolio/static/css/main.86e52e35.css",
+    "main.js": "/jeussantiago.github.io/portfolio/static/js/main.a96a916d.js",
+    "static/js/415.4d6acbeb.chunk.js": "/jeussantiago.github.io/portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/jeussantiago.github.io/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/homepage.png": "/jeussantiago.github.io/portfolio/static/media/homepage.907e5a4be859739f90b2.png",
+    "static/media/travel-helper-compare-price-red-circle.jpg": "/jeussantiago.github.io/portfolio/static/media/travel-helper-compare-price-red-circle.6b980d74540477afc675.jpg",
+    "static/media/productPage.png": "/jeussantiago.github.io/portfolio/static/media/productPage.834eea7f96a5110fe88c.png",
+    "static/media/homepage.jpeg": "/jeussantiago.github.io/portfolio/static/media/homepage.5ad334b4de28a580932e.jpeg",
+    "static/media/home-main.svg": "/jeussantiago.github.io/portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/jeussantiago.github.io/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/groupDashboard.jpeg": "/jeussantiago.github.io/portfolio/static/media/groupDashboard.8ae3801a02ead5f9194e.jpeg",
+    "static/media/cartpage.png": "/jeussantiago.github.io/portfolio/static/media/cartpage.7c800fc71ce344ae0727.png",
+    "static/media/adminProductControl.png": "/jeussantiago.github.io/portfolio/static/media/adminProductControl.21754792c4cd056fdaeb.png",
+    "static/media/ordersummary.png": "/jeussantiago.github.io/portfolio/static/media/ordersummary.753444a3eab46a17a89d.png",
+    "static/media/expenseEdit.jpeg": "/jeussantiago.github.io/portfolio/static/media/expenseEdit.0e30aeeb4de4605500c5.jpeg",
+    "static/media/groupsPage.jpeg": "/jeussantiago.github.io/portfolio/static/media/groupsPage.4c7df1b76ef455ae423c.jpeg",
+    "static/media/dashboard.jpeg": "/jeussantiago.github.io/portfolio/static/media/dashboard.7e06193b7ec9de98c615.jpeg",
+    "static/media/adminProductEdit.png": "/jeussantiago.github.io/portfolio/static/media/adminProductEdit.15f0fbf6850294b90ec3.png",
+    "static/media/modelDiagram.jpeg": "/jeussantiago.github.io/portfolio/static/media/modelDiagram.c74ec92a269634a39360.jpeg",
+    "static/media/jeus-santiago-resume.pdf": "/jeussantiago.github.io/portfolio/static/media/jeus-santiago-resume.7dadd7578989197660c9.pdf",
+    "static/media/settings.jpeg": "/jeussantiago.github.io/portfolio/static/media/settings.666eade54b54f5d6367d.jpeg",
+    "static/media/home-bg.jpg": "/jeussantiago.github.io/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/jeussantiago.github.io/portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/pre.svg": "/jeussantiago.github.io/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/jeussantiago.github.io/portfolio/index.html",
+    "main.86e52e35.css.map": "/jeussantiago.github.io/portfolio/static/css/main.86e52e35.css.map",
+    "main.a96a916d.js.map": "/jeussantiago.github.io/portfolio/static/js/main.a96a916d.js.map",
+    "415.4d6acbeb.chunk.js.map": "/jeussantiago.github.io/portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/jeussantiago.github.io/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86e52e35.css",
+    "static/js/main.a96a916d.js"
+  ]
+}
