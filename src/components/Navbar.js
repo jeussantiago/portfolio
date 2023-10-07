@@ -46,11 +46,11 @@ function NavBar() {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto" defaultActiveKey="#home">
-                        {location.pathname !== "/" && (
+                        {location.pathname === "/resume" && (
                             <Nav.Item>
                                 <Nav.Link
                                     as={Link}
-                                    to="/"
+                                    to="/portfolio"
                                     onClick={() => updateExpanded(false)}
                                 >
                                     <AiOutlineHome

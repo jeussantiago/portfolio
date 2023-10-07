@@ -1,18 +1,16 @@
-import React, { useEffect, useState } from "react";
-import Preloader from "../src/components/Pre";
-import Home from "./components/Home/Home";
-import Navbar from "./components/Navbar";
-// import About from "./components/About/About";
-// import Projects from "./components/Projects/Projects";
 import "bootstrap/dist/css/bootstrap.min.css";
+import React, { useEffect, useState } from "react";
 import {
     Navigate,
     Route,
     BrowserRouter as Router,
     Routes,
 } from "react-router-dom";
+import Preloader from "../src/components/Pre";
 import "./App.css";
 import Footer from "./components/Footer";
+import Home from "./components/Home/Home";
+import Navbar from "./components/Navbar";
 import Resume from "./components/Resume/ResumeNew";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
@@ -36,6 +34,7 @@ function App() {
                 <ScrollToTop />
                 <Routes>
                     <Route path="/" element={<Home />} />
+                    <Route path="/portfolio" element={<Home />} />
                     {/* <Route path="/project" element={<Projects />} /> */}
                     {/* <Route path="/about" element={<About />} /> */}
                     <Route path="/resume" element={<Resume />} />
