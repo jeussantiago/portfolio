@@ -1,71 +1,90 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
+    DiBootstrap,
+    DiDjango,
+    DiGit,
+    DiJavascript1,
+    DiMongodb,
+    DiPython,
+    DiReact,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+    SiAmazonaws,
+    SiCss3,
+    SiGithub,
+    SiHtml5,
+    SiPaypal,
+    SiPostgresql,
+    SiPostman,
+    SiRedux,
+    SiSolidity,
+    SiVisualstudiocode,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+
+const frontendIcons = [
+    { icon: <DiJavascript1 />, key: "javascript" },
+    { icon: <DiReact />, key: "react" },
+    { icon: <SiRedux />, key: "redux" },
+    { icon: <SiCss3 />, key: "css" },
+    { icon: <SiHtml5 />, key: "html" },
+    { icon: <DiBootstrap />, key: "bootstrap" },
+    { icon: <SiPaypal />, key: "paypal" },
+];
+
+const backendIcons = [
+    { icon: <DiPython />, key: "python" },
+    { icon: <DiDjango />, key: "django" },
+    { icon: <SiPostgresql />, key: "postgresql" },
+    { icon: <DiMongodb />, key: "mongodb" },
+    { icon: <SiAmazonaws />, key: "AWS" },
+    { icon: <SiPostman />, key: "postman" },
+];
+
+const otherToolsIcons = [
+    { icon: <SiGithub />, key: "github" },
+    { icon: <DiGit />, key: "git" },
+    { icon: <SiVisualstudiocode />, key: "visualstudiocode" },
+    { icon: <SiSolidity />, key: "solidity" },
+];
 
 function Techstack() {
-  return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-    </Row>
-  );
+    return (
+        <div>
+            <h1 className="project-heading">
+                Frontend <strong className="purple">Tools </strong>
+            </h1>
+            <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+                {frontendIcons.map((tech) => (
+                    <Col xs={4} md={2} className="tech-icons" key={tech.key}>
+                        {tech.icon}
+                    </Col>
+                ))}
+            </Row>
+
+            <h1 className="project-heading">
+                Backend <strong className="purple">Tools </strong>
+            </h1>
+            <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+                {backendIcons.map((tech) => (
+                    <Col xs={4} md={2} className="tech-icons" key={tech.key}>
+                        {tech.icon}
+                    </Col>
+                ))}
+            </Row>
+
+            <h1 className="project-heading">
+                Other <strong className="purple">Tools </strong>
+            </h1>
+            <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+                {otherToolsIcons.map((tech) => (
+                    <Col xs={4} md={2} className="tech-icons" key={tech.key}>
+                        {tech.icon}
+                    </Col>
+                ))}
+            </Row>
+        </div>
+    );
 }
 
 export default Techstack;
