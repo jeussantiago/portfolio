@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7d2ab54b.css",
-    "main.js": "/portfolio/static/js/main.28aa6b1e.js",
+    "main.js": "/portfolio/static/js/main.7b870c67.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/homepage.png": "/portfolio/static/media/homepage.907e5a4be859739f90b2.png",
     "static/media/travel-helper-compare-price-red-circle.jpg": "/portfolio/static/media/travel-helper-compare-price-red-circle.6b980d74540477afc675.jpg",
     "static/media/productPage.png": "/portfolio/static/media/productPage.834eea7f96a5110fe88c.png",
     "static/media/homepage.jpeg": "/portfolio/static/media/homepage.5ad334b4de28a580932e.jpeg",
-    "static/media/home-main.svg": "/portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/groupDashboard.jpeg": "/portfolio/static/media/groupDashboard.8ae3801a02ead5f9194e.jpeg",
     "static/media/cartpage.png": "/portfolio/static/media/cartpage.7c800fc71ce344ae0727.png",
@@ -26,12 +25,12 @@
     "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio/index.html",
     "main.7d2ab54b.css.map": "/portfolio/static/css/main.7d2ab54b.css.map",
-    "main.28aa6b1e.js.map": "/portfolio/static/js/main.28aa6b1e.js.map",
+    "main.7b870c67.js.map": "/portfolio/static/js/main.7b870c67.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d2ab54b.css",
-    "static/js/main.28aa6b1e.js"
+    "static/js/main.7b870c67.js"
   ]
 }
