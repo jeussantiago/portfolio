@@ -19,7 +19,7 @@ html {
     --scrollbar-color-hover: #b3d6ff;
 
     --nav-brand: #92b8e3;
-    --nav-box-shadow: rgba(9, 5, 29, 0.171);
+    --nav-box-shadow: rgba(5, 17, 29, 0.171);
     --nav-section-line: #94bce9e5;
     --nav-section-line-after: #94bce9e5;
     --nav-stick: #232f3aa9;
@@ -198,7 +198,7 @@ button:focus {
     .navbar {
         padding: 1rem 2rem !important;
         font-size: 1.4rem !important;
-        background-color: #181a27 !important;
+        background-color: #182027 !important;
     }
     .navbar-nav .nav-item a::after {
         display: none !important;
