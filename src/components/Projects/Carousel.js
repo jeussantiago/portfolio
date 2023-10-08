@@ -63,6 +63,8 @@ const Carousel = ({ name, images }) => {
                     disabled={translateX >= minTranslateX}
                     style={{
                         color: translateX >= minTranslateX ? "grey" : "white",
+                        cursor:
+                            translateX >= minTranslateX ? "default" : "pointer",
                     }}
                 />
                 <FaArrowAltCircleRight
@@ -71,6 +73,8 @@ const Carousel = ({ name, images }) => {
                     disabled={translateX <= maxTranslateX}
                     style={{
                         color: translateX <= maxTranslateX ? "grey" : "white",
+                        cursor:
+                            translateX <= maxTranslateX ? "default" : "pointer",
                     }}
                 />
             </div>

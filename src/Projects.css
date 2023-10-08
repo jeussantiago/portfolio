@@ -83,7 +83,7 @@ button {
 }
 .line-title::after {
     width: 32px;
-    background: #c770f0;
+    background: #3e8ce6;
 }
 
 /******* Middle section CSS Start ******/
@@ -203,7 +203,7 @@ button {
 .project-card-left {
     /* border: 1px solid blue; */
     padding-right: 40px;
-    border-right: 3px solid #c770f0;
+    border-right: 3px solid #3d6ea7;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -215,7 +215,7 @@ button {
 }
 .project-card-left li.active {
     /* color: white; */
-    background-color: #71428c;
+    background-color: #73a2d8;
     box-shadow: 6px 12px 12px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: 6px 12px 12px rgba(0, 0, 0, 0.25);
     border-radius: 3px;

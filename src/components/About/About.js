@@ -1,15 +1,12 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Particle from "../Particle";
+import myImg from "../../Assets/person-binary.png";
 import Aboutcard from "./AboutCard";
-// import Github from "./Github";
-import myImg from "../../Assets/avatar.svg";
 import Techstack from "./Techstack";
 
 function About() {
     return (
         <Container fluid className="about-section" id="about-section">
-            <Particle />
             <Container>
                 <Row
                     style={{
@@ -38,13 +35,12 @@ function About() {
                         style={{ paddingTop: "70px", paddingBottom: "50px" }}
                         className="about-img"
                     >
-                        {/* <img
-                            src={laptopImg}
-                            alt="about"
+                        <img
+                            src={myImg}
                             className="img-fluid"
-                        /> */}
-
-                        <img src={myImg} className="img-fluid" alt="avatar" />
+                            alt="avatar"
+                            style={{ maxHeight: "400px" }}
+                        />
                     </Col>
                 </Row>
 

@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "../../Projects.css";
-import Particle from "../Particle";
 import ProjectCard from "./ProjectCard";
 
 import coincompanionDashboard from "../../Assets/Projects/coincompanion/dashboard.jpeg";
@@ -229,7 +228,6 @@ const projectData = [
 function ProjectsSection() {
     return (
         <Container fluid className="project-section" id="project-section">
-            <Particle />
             <Container>
                 <h1 className="project-heading">
                     My Recent <strong className="purple">Works </strong>

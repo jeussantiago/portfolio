@@ -2,14 +2,13 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import laptopImg from "../../Assets/about.png";
-import Particle from "../Particle";
+import { MdEmail } from "react-icons/md";
+import teachGif from "../../Assets/home-person.png";
 import Type from "./Type";
 
 function Home2() {
     return (
         <Container fluid className="home-section" id="home">
-            <Particle />
             <Container className="home-content">
                 <Row>
                     <Col md={7} className="home-header">
@@ -74,16 +73,26 @@ function Home2() {
                                         <FaLinkedinIn />
                                     </a>
                                 </li>
+                                <li className="social-icons">
+                                    <a
+                                        href="mailto:jeus1santiago@gmail.com"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="icon-colour  home-social-icons"
+                                    >
+                                        <MdEmail />
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </Col>
 
-                    <Col md={5} style={{ paddingTop: 40, paddingBottom: 20 }}>
+                    <Col md={5} style={{ paddingTop: 20, paddingBottom: 20 }}>
                         <img
-                            src={laptopImg}
+                            src={teachGif}
                             alt="home pic"
                             className="img-fluid"
-                            style={{ maxHeight: "450px" }}
+                            style={{ maxHeight: "500px" }}
                         />
                     </Col>
                 </Row>
