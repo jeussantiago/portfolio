@@ -23,6 +23,7 @@ import proshopProductPage from "../../Assets/Projects/proshop/productPage.png";
 const projectData = [
     {
         name: "Coin Companion",
+        demoLink: "https://coincompanion-df3e4361c1c8.herokuapp.com/",
         images: [
             { image: coincompanionHomepage, description: "Login/Registration" },
             { image: coincompanionDashboard, description: "Dashboard" },
@@ -97,6 +98,8 @@ const projectData = [
     },
     {
         name: "Travel Helper Extension",
+        demoLink:
+            "https://chrome.google.com/webstore/detail/travel-helper/jcalegmiaejdpbffdkcdpenimoboenap",
         images: [
             { image: travelhelperCompare, description: "" },
             // { image: editor, description: "there" },
@@ -157,6 +160,7 @@ const projectData = [
     },
     {
         name: "ProShop Ecommerce",
+        demoLink: "https://proshop-django-react-773c0e0ad70b.herokuapp.com/",
         images: [
             { image: proshopHomepage, description: "Home" },
             { image: proshopProductPage, description: "Product" },

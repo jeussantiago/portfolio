@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
-const Carousel = ({ name, images }) => {
+const Carousel = ({ name, demoLink, images }) => {
     const [activeIndex, setActiveIndex] = useState(0);
     const [translateX, setTranslateX] = useState(0);
     const translationStep = 35;
@@ -31,7 +31,13 @@ const Carousel = ({ name, images }) => {
     return (
         <section className="game-section">
             <div className="project-title-container">
-                <h2 className="line-title">{name}</h2>
+                <div className="line-title">
+                    <h2>
+                        {name} <br />
+                        <a href={demoLink}>(Demo Link)</a>
+                    </h2>
+                </div>
+                {/* <h2 className="line-title">{name} asdasd</h2> */}
             </div>
             <div
                 className="owl-carousel custom-carousel owl-theme"

@@ -25,7 +25,11 @@ function ProjectCard({ projectData }) {
 
     return (
         <div className="project-card-container">
-            <Carousel name={project.name} images={project.images} />
+            <Carousel
+                name={project.name}
+                demoLink={project.demoLink}
+                images={project.images}
+            />
             <Row className="project-card-table">
                 <Col sm={4} className="project-card-left">
                     <ul className="list-unstyled">
